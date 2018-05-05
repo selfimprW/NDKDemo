@@ -13,7 +13,7 @@ package com.zhuan.ndkdemo;
 public class JNITest {
     // Used to load the 'native-lib' library on application startup.
     static {
-        System.loadLibrary("native-lib"); //这里的cade跟gradle配置的modulename一致
+        System.loadLibrary("zhuan-lib"); //这里的cade跟gradle配置的modulename一致
     }
 
     /**

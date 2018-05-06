@@ -15,7 +15,6 @@ android {
             }
         }
         ndk {
-            moduleName = "zhuanNDK"
             abiFilters "x86", "armeabi-v7a" //输出指定abi体系结构下的so库。这里填写两个abi cpu架构，如果什么都不写，则默认支持所有平台
         }
         //放在libs目录中
